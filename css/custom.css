@@ -1,7 +1,54 @@
+
+/* Основные настройки страницы */
+
 body {
     min-height: 100vh;
 }
 
+
+/* Временные блоки изображений */
+
 .placeholder-box {
     min-height: 240px;
+}
+
+.placeholder-image {
+    min-height: 180px;
+    background-color: #f1f3f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.placeholder-large {
+    min-height: 320px;
+}
+
+
+/* Изображения в карточках */
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+
+/* Карточки товаров */
+
+.card {
+    transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Подвал */
+
+footer {
+    margin-top: auto;
 }
